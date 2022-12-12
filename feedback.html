@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Feedback?</title>
+	<link href="css/master.css" rel="stylesheet">
+  </head>
+  
+  <body class="feedback">
+	<div class="page-list">
+			<nav>
+				<ul id="mainMenu">
+			<!-- this will be for the header that leads to diff pages -->
+					<li id="page"><a href="./savedtrades.html">Saved Trades</a></li>
+					<li id="page"><a href="./feedback.html">Feedback?</a></li>
+					<li id="page"><a href="./signin.html">Sign in</a></li>
+					<li id="page"><a href="./index.html"><img id="btu" src="images/logo.png"></a></li>
+					<li id="page"><a href="./value.html">Value List</a></li>
+					<li id="page"><a href="./itemsearch.html">Item Search</a></li>
+					<li id="page"><a href="./about.html">About BTU</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+	<section>
+	<div class="titlefaq">
+		<h1>FAQ's</h1>
+	</div>
+	
+	<div class="faq">
+		<div class="questions">
+			<h3>What methods of payment can I use?</h3>
+		</div>
+		<div class="answers">
+			<p>As of right now, BTU does not allow payment as a form of trade. In spirit of trades, only communicated items between traders will be accepted.</p>
+		</div>
+	</div>
+	
+	<div class="faq">
+		<div class="questions">
+			<h3>How long do items take to arrive?</h3>
+		</div>
+		<div class="answers">
+			<p>That is completely up to you and whoever you are trading with! Whether it is an in-person exchange post BTU agreement or you decide to use some shipping platform to deliver the items.</p>
+		</div>
+	</div>
+	
+	<div class="faq">
+		<div class="questions">
+			<h3>How do I know I won't get scammed?</h3>
+		</div>
+		<div class="answers">
+			<p>During the sign up process, we require every one to verify their account through their Purdue email to make sure they are a student. Any problems associated with scamming can be directly traced back to the student.</p>
+		</div>
+	</div>
+	</section>
+	
+	<div class="problemsh">
+		<h1>Any Problems or Feedback?</h1>
+	</div>
+	<div id="problemst">
+		<div id="fill">
+			<form action="forms.php" method="POST">
+				<input type="text" name="firstname" placeholder="First name"><br />
+				<input id="lastname" type="text" name="lastname" placeholder="Last name"><br />
+				<input type="email" name="email" placeholder="Email"><br />
+				<input type="tel" name="telephone" placeholder="Phone number"><br />
+				<input id="subject" type="text" name="subject" placeholder="Subject"><br />
+				<textarea id="textbox" name="comment" placeholder="Type message here" rows="5" cols="40"></textarea>
+				
+				<input type="submit" name="submit" value="Submit">
+			</form>
+		</div>
+	</div>
+	
+	<script type="text/javascript" src="javascript/myscripts.js"></script>
+  </body>
+  
+  
+</html>
