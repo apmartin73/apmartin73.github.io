@@ -4,12 +4,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sign Up</title>
+    <title>Sign In</title>
 	<link href="css/master.css" rel="stylesheet">
 	<script src="myscripts.js"></script>
   </head>
   
-  <body>
+  <body class="uploadb">
 	<div class="page-list">
 			<nav>
 				<ul id="mainMenu">
@@ -24,12 +24,43 @@
 				</ul>
 			</nav>
 	</div>
+	<div class="uploadh">
+	<h1>Upload your Images</h1>
+	</div>
 	
-	<div class="box">
-	<h1> Sign up </h1>
-	<input type="text" name="user" placeholder="Enter Username" id="username">
-	<input type="password" name="pass" placeholder="Enter Password" id="password">
-	<input type="submit" name="submit2" value="Sign in" onclick="validate()">
+	<div class="uploads">
+		<div>
+		<p>Front view</p>
+		<input type="file" id="fview">
+		</div>
+		
+		<div>
+		<p>Back view</p>
+		<input type="file" id="bview">
+		</div>
+		
+		<div>
+		<p>Left side view</p>
+		<input type="file" id="lview">
+		</div>
+		
+		<div>
+		<p>Right side view</p>
+		<input type="file" id="rview">
+		</div>
+		
+	</div>
+	
+	<div class="info">
+		<p>Category:</p><input type="text" placeholder="clothing, electronics etc."><br />
+		<p>Item name:</p><input type="text"><br />
+		<p>Condition:</p><input type="text" placeholder="great, decent, etc."><br />
+		<p>Time of purchase:</p><input type="text" placeholder="MM/DD/YYYY"><br />
+		<p>Extra information:</p><textarea id="textbox" placeholder="Type message here" rows="5" cols="40"></textarea>
+	</div>
+	
+	<div class="eval">
+		<input type="submit" value="Evaluate!" onclick="validate()">
 	</div>
 	
 	<script>
@@ -37,7 +68,6 @@
 		window.location.href = "index.html";
 	}
 	</script>
-	
   </body>
   
   
