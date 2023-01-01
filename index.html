@@ -9,6 +9,88 @@
 	<link href="css/master.css" rel="stylesheet">
 	<script src="myscripts.js"></script>
 	
+	<style>
+ body {
+	background-color: #333333;	
+	margin: 0px;
+	padding: 0px;
+}
+
+	#mainMenu {
+	background-color: #18191A;
+	overflow: hidden;
+	display: flex;
+	margin-top: 0px;
+	height: 30%;
+}
+
+#page {
+	list-style: none;
+	font-size: 20px;
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+ }
+ 
+#page a {
+	text-decoration: none;
+	text-align: justify;
+	color: #FFFFFF;
+	transition: all 0.4s;
+		
+}
+ 
+#page a:hover {
+	background-color: #111111;
+	color: #FFFFFF;
+	overflow: hidden;
+	padding: 10px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+}
+
+#hammer {
+	width: 350px;
+	height:155px;
+	
+}
+
+#btu {
+	 width: 90px;
+	 height: 75px;
+ }
+ 
+.space {
+	margin-top: 100px;
+}
+
+#homeh {
+	color: #CEB888;
+	margin-bottom: 50px;
+	font-size: 45px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+	
+#homel {
+	 font-size: 25px;
+	 list-style: none;
+	 color: #FFFFFF;
+	 text-align: left;
+	 margin: 75px 50px;
+ }
+ 
+#homel a {
+	text-decoration: underline;
+	color: #FFFFFF;
+}
+	</style>
 </head>
 
 
@@ -21,7 +103,7 @@
 					<li id="page"><a href="./savedtrades.html">Saved Trades</a></li>
 					<li id="page"><a href="./feedback.html">Feedback?</a></li>
 					<li id="page"><a href="./signup.html">Sign up</a></li>
-					<li id="page"><a href="./index.html"><img id="btu" src="images/logo.png"></a></li>
+					<li id="page"><a href="./index.html"><img id="btu" src="https://i.postimg.cc/xcCZPtCW/logo.png"></a></li>
 					<li id="page"><a href="./value.html">Value List</a></li>
 					<li id="page"><a href="./itemsearch.html">Item Search</a></li>
 					<li id="page"><a href="./about.html">About BTU</a></li>
@@ -31,7 +113,7 @@
 		<div id="starting-page">
 			<div class="container">
 				<h1 id="homeh">!Welcome to Boiler Trade Unit!</h1> 
-				<img id="hammer" src="images/hammer.jpg">
+				<img id="hammer" src="https://i.postimg.cc/QVjwFXrN/hammer.jpg">
 			</div>
 			<div>
 				<li id="homel">To get started, sign in <a href="./signup.html"><i>here</i></a></li>  <!-- the here will be a link to sign in page -->

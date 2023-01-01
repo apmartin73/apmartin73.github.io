@@ -9,14 +9,13 @@
 	background-color: #18191A;
 	overflow: hidden;
 	display: flex;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 	margin-top: 0px;
+	height: 30%;
 }
 
 #page {
 	list-style: none;
-	font-family: "Times New Roman", Times, serif;
-	font-size: 25px;
+	font-size: 20px;
 	flex: 1;
 	display: flex;
 	justify-content: center;
@@ -54,6 +53,10 @@
 	 height: 75px;
  }
  
+.space {
+	margin-top: 100px;
+}
+
 #homeh {
 	color: #CEB888;
 	margin-bottom: 50px;
@@ -65,7 +68,6 @@
 }
 	
 #homel {
-	 font-family: "Times New Roman", Times, serif;
 	 font-size: 25px;
 	 list-style: none;
 	 color: #FFFFFF;
